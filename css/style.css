@@ -1,0 +1,25 @@
+img{
+    width: 500px;
+    height: 350px;
+}
+
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+#table-1, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#navigation_header{
+    text-align: center;
+}
+
+#HomePage{
+    background-color: antiquewhite;
+}
