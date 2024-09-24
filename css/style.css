@@ -1,8 +1,3 @@
-img{
-    width: 500px;
-    height: 350px;
-}
-
 header{
     text-align: center;
 }
@@ -18,8 +13,4 @@ footer{
 
 #navigation_header{
     text-align: center;
-}
-
-#HomePage{
-    background-color: antiquewhite;
 }
