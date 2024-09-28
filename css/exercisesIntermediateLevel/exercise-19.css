@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+nav h5 {
+    font-size: 1.2em;
+}
+
+article h3 {
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    nav h5 {
+        font-size: 1.1em;
+    }
+
+    article h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    header p {
+        font-size: 0.8em;
+    }
+
+    nav h5 {
+        font-size: 1em;
+    }
+
+    article h3 {
+        font-size: 1.2em;
+    }
+}

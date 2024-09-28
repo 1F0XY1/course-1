@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise-2</title>
+    <style>
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+
+<a href="../index.html">HomePage</a>
+
+<div class="container">
+    <form action="#" method="POST" aria-labelledby="formTitle">
+        <h1 id="formTitle" >Contact Form</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" aria-describedby="nameHelp">
+        <span id="nameHelp" class="visually-hidden">Please enter your full name.</span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" aria-describedby="emailHelp">
+        <span id="emailHelp" class="visually-hidden">Please enter a valid email address.</span>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required aria-required="true" aria-describedby="subjectHelp">
+        <span id="subjectHelp" class="visually-hidden">Please enter the subject of your message.</span>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required aria-required="true" aria-describedby="messageHelp"></textarea>
+        <span id="messageHelp" class="visually-hidden">Your message must be at least 10 characters long.</span>
+
+        <button type="submit" aria-label="Submit the form">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

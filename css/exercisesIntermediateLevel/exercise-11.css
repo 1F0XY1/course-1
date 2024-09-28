@@ -1,0 +1,18 @@
+.navigation-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-links li {
+    position: relative;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.navigation-links li:before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    color: blue;
+    font-size: 18px;
+}

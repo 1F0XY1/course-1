@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #333;
+    --text-color: white;
+}
+
+
+.header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.main {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}

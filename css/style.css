@@ -14,3 +14,36 @@ footer{
 #navigation_header{
     text-align: center;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.left-container {
+    width: 50%;
+    padding: 10px;
+}
+
+.right-container {
+    width: 50%;
+    padding: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.left-gallery {
+    width: 50%;
+    padding: 10px;
+}
+
+.right-gallery img {
+    width: 50%;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.moving-box {
+    width: 100px; /* Width of the moving element */
+    height: 100px; /* Height of the moving element */
+    background-color: blue; /* Color of the moving element */
+    position: relative; /* Allow positioning */
+    animation: moveRight 5s linear infinite; /* Animation for moving right */
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0; /* Start position */
+    }
+    100% {
+        left: calc(100% - 100px); /* End position (100% width minus box width) */
+    }
+}
